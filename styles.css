@@ -1,0 +1,581 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0 0 2rem 0;
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	color: #272727;
+	background-color: #F4CEC5;
+}
+
+img {
+	max-width: 100%;
+}
+
+.header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	background-color: #0A4080;
+	width: 100%;
+	height: 12%;
+
+}
+
+.logo {
+	width: 100%;
+	margin: 0 0 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	background: url(imgs/logo.svg);
+	background-color: #0A4080;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	padding: 2rem 5rem;
+}
+
+.logo-footer {
+	max-width: 2.5rem;
+	align-items: center;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+	background-color: #DCA411;
+	max-width: 100%;
+}
+
+.about {
+	padding: 1.25rem;
+	background-color: #F4CEC5;
+	max-width: 100%;
+	background-image: url(imgs/about.jpg);
+  background-size: 40%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: right 0px;
+}
+
+
+.projectcover1 {
+	padding: 1.25rem;
+	max-width: 100%;
+	background-image: url(imgs/samambaia/samambaia02.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right 1.25px;
+}
+
+
+.work {
+	padding: 1rem;
+	background-color: #F4CEC5;
+	max-width: 100%;
+}
+
+
+.aboutbox {
+	max-width: calc(100% - 0.5rem);
+	display: block;
+	margin: 0 auto;
+	padding: 0.2rem 1rem;
+	box-shadow: 0.5rem 0.5rem #BC4614;
+	background-color: #DCA411;
+}
+
+.client {
+	max-width: 100%;
+	display: inline-block;
+	justify-content: left;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+.button {
+	background-color: #BC4614;
+	width: auto;
+	padding: 0 0.75rem 0 0.75rem;
+	color: #000000;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.project-card {
+	padding: 1.5rem 0;
+	text-align: left;
+	line-height: 100%;
+}
+
+.divproj {
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 0.2em 0.2em 0;
+
+}
+
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url(imgs/lines2.svg);
+	background-color: #0A4080;
+	background-size: auto 70px;
+	padding: 2rem 5rem;
+	color: #0A4080;
+}
+
+.contact-title {
+	font-size: 16px;
+  text-transform: uppercase;
+}
+
+.contact a {
+	color: #FFF;
+}
+
+.menu {
+	align-items: center;
+ 	background-color: #0A4080;
+	display: flex;
+}
+
+.menu a {
+  float: left;
+  color: #f4f4f4;
+  display: block;
+  text-align: center;
+  padding: 2.2rem 1rem;
+  text-decoration: underline;
+}
+
+.menu a:active {
+  color: #BC4614;
+}
+
+hr {
+	margin: 0;
+	border-top: 0.5rem dashed #BC4614;
+	background-color:#DCA411;
+}
+
+
+a {
+	font-weight: 600;
+	color: #0A4080;
+}
+
+sub {
+	font-size: 0.8rem;
+	letter-spacing: 0.06rem;
+	line-height: 80%;
+	text-transform: uppercase;
+	margin: 1rem 0;
+}
+
+
+h1 {
+	font-family: 'Abril Fatface', sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 100%;
+}
+
+h2 {
+	font-size: 1.25rem;
+	margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+
+}
+
+h3 {
+	font-family: 'Abril Fatface', sans-serif;
+	font-weight: 300;
+	font-size: 2.4em;
+	line-height: 110%;
+	color: #DCA411;
+}
+
+p {
+	font-size: 16px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 80rem;
+	padding: 0 1rem;
+	width: 100%;
+	align-items: center;
+}
+
+.leg {
+	font-size: 13px;
+	line-height: 100%;
+	margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.imghome {
+	max-width: calc(100% - 0.5rem);
+	display: block;
+	margin: 0 auto;
+	transition: background .3s ease-in-out;
+	box-shadow: 0.5rem 0.5rem #0A4080;
+
+}
+
+.imghome:hover {
+	box-shadow: 0.5rem 0.5rem #BC4614;
+}
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* max-width: 100%; */
+	padding: 0;
+}
+
+.gallery-instagram {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery-instagram img {
+	max-width: 40px;
+}
+
+.gallery-instagram a {
+	display: block;
+}
+
+.column {
+	width: 32%;
+	background-color: #DCA411;
+	margin: 0;
+	padding: 0;
+ 	text-align: center;
+ 	vertical-align: text-bottom;
+
+}
+
+.column img {
+	display: block;
+}
+
+
+.footer {
+	align-items: center;
+	background-color: #F4CEC5;
+	color: #0A4080;
+  display: inline-block;
+	text-align: center;
+	width: 100%;
+	align-content: center;
+  }
+
+ .footer a {
+  text-decoration: underline;
+  }
+
+.nav {
+	list-style-type: none;
+}
+
+ul {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	list-style-type: none;
+	margin: 2rem 0 2rem 0;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.eyes {
+	width: 6.25rem;
+	vertical-align: middle;
+}
+
+li {
+	padding: 0 0.75rem;
+	display: inline-block;
+}
+
+.projects-wrapper {
+	background-color: #F4CEC5;	
+}
+
+.about-cards .container {
+	margin: 1.8rem 0;
+}
+
+.see-work {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.see-work-button {
+	display: inline-flex;
+	align-items: center;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #000;
+	background-color: #BC4614;
+	padding: 0.4rem 1rem;
+	line-height: 30px;
+}
+
+.see-work-button-eyes {
+	display: inline-block;
+	background-image: url('imgs/olhinhos.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 30px; 
+	color: transparent;
+}
+
+.see-work-button span {
+	text-decoration: underline;
+}
+
+.hola {
+	padding: 0;
+	z-index: 1;
+}
+
+.projectsubtitles {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #BC4614;
+}
+
+.brief-wraper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFF;
+	padding: 0;
+	margin: 0;
+}		
+
+.brief-wrapper .brief-card {
+	flex-shrink: 0;
+}
+
+.brief-card {
+	padding: 3rem 1.5rem 3rem 1.5rem;
+}
+
+
+.divider {
+	background-color: #FFF;
+}
+
+.bluehair {
+	display: block;
+	background-image: url('imgs/home/bluehair.svg');
+	background-size: 100%;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 4rem;
+	background-color: #DCA411;
+}
+
+.face {
+	display: block;
+	background-image: url('imgs/home/face.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 100%;
+}
+
+.project-closing {
+	display: block;
+	max-width: 100%;
+	text-align: right;
+	font-size: 12px;
+	margin: 0 0 3rem 0;
+
+}
+
+/* Tablet portrait */
+@media screen and (min-width: 768px) {
+	.projects-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}		
+
+	.projects-wrapper .project-card {
+		width: 50%;
+		flex-shrink: 0;
+	}
+
+	.hero-and-contact {
+		display: flex;
+	}
+
+	.hero-and-contact .hero,
+	.hero-and-contact .contact {
+		width: 50%;
+	}
+
+	.hero-and-contact .contact h3 {
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+
+	.about-cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.about-cards .container {
+		width: 50%;
+	}
+
+	.about-card-studies {
+		width: 100%;
+		flex-shrink: 0;
+	}
+
+	h1 {
+	font-size: 4rem;
+	}
+	
+	.biobox {
+	margin: 0;
+	display: block;
+	max-width: 55%;
+
+}
+	.hola {
+	display: block;
+	max-width: 40%;
+}
+
+.projectcover1 {
+	background-size: 40%;
+  background-position: right 1.25px;
+}
+
+.client {
+	max-width: 50%;
+	display: inline-block;
+	justify-content: left;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+.brief-wraper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.brief-card {
+	max-width: 45%;
+	align-items: center;
+	padding: 0 1.5rem 0 1.5rem;
+}
+
+.brief-img {
+	max-width: 45%;
+}
+
+.divider {
+	display: block;
+}
+
+.project-closing {
+	display: block;
+	max-width: 100%;
+	text-align: right;
+	font-size: 12px;
+	margin: 0 0 3rem 0;
+}
+
+.bluehair {
+	background-size: 50%;
+	max-height: 100%;
+	height: 5rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1080px) {
+	.projects-wrapper .project-card {
+		width: 33.3%
+	}
+
+	.hero-and-contact .hero {
+		width: 40%;
+	}
+
+	.hero-and-contact .contact {
+		width: 60%;
+		font-size: 30px;
+	}
+
+	h1 {
+	font-size: 5rem;
+}
+
+.logo {
+	width: 32rem;
+	background: url(imgs/logodesktop.svg);
+	background-color: #0A4080;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	padding: 2rem 5rem;
+
+}
+
+.brief-wrapper .brief-card {
+	width: 50%;
+	height: 50%
+}
+
+.brief-img {
+	width: 50%;
+	height: 50%;
+	
+}
+
+.projectcover1 {
+	max-height: 100%;
+  background-size: 30%;
+  ackground-position: right -50px;
+}
+
+
+.bluehair {
+	background-size: 40%;
+	max-height: 100%;
+	height: 6rem;
+}

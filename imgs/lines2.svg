@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2435px" height="80px" viewBox="0 0 2435 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>lines</title>
+    <desc>Created with Sketch.</desc>
+    <g id="lines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="Group" opacity="0.4" transform="translate(0.000000, 19.000000)" stroke="#F4F4F4" stroke-width="2">
+                <path d="M0,1 L2435,1" id="Path"></path>
+                <path d="M0,41 L2435,41" id="Path"></path>
+            </g>
+            <path d="M73,0 L73,80" id="Path" stroke="#F4F4F4" stroke-width="2" opacity="0.3"></path>
+            <path d="M36.6,51.6 L32.4,51.6 C26.9,51.6 22.4,47.1 22.4,41.6 L22.4,37.4 C22.4,31.9 26.9,27.4 32.4,27.4 L36.6,27.4 C42.1,27.4 46.6,31.9 46.6,37.4 L46.6,41.6 C46.6,47.1 42.1,51.6 36.6,51.6 Z" id="Path" fill="#BC4614" fill-rule="nonzero"></path>
+            <path d="M46.7,0 L46.7,2.2 C46.7,7.7 42.2,12.2 36.7,12.2 L32.5,12.2 C27,12.2 22.5,7.7 22.5,2.2 L22.5,0" id="Path" fill="#BC4614" fill-rule="nonzero"></path>
+            <path d="M22.4,80 L22.4,77.9 C22.4,72.4 26.9,67.9 32.4,67.9 L36.6,67.9 C42.1,67.9 46.6,72.4 46.6,77.9 L46.6,80" id="Path" fill="#BC4614" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
